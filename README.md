@@ -34,11 +34,6 @@ app/modules/
    Renomeie .env.exemplo para .env e preencha as variáveis
    ```
 
-### Configuração
-
-- .env: Aramazena as chaves de API, credenciais e configurações sensíveis.
-- config.py: Define configurações gerais.
-
 ### Funcionalidades principais
 
 - Coletar dados de fontes externas (Web scraping).
