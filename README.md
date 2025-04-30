@@ -8,14 +8,15 @@ Abaixo está a descrição da estrutura do projeto e suas funcionalidades princi
 ## 🗂️ Estrutura do Projeto
 
 app/modules/
-coleta.py # Coleta de dados
-core.py # Lógica central do projeto
-sentiments.py # Análise de sentimentos de textos
-sugestocs.py # Geração de sugestões baseadas nos dados
-.env # Variáveis de ambiente (API keys, configs sensíveis)
-config.py # Configurações do projeto
-main.py # Ponto de entrada da aplicação (inicia o servidor)
-requirements.txt # Lista de dependências do projeto
+
+- coleta.py # Coleta de dados
+- core.py # Lógica central do projeto
+- sentiments.py # Análise de sentimentos de textos
+- sugestocs.py # Geração de sugestões baseadas nos dados
+- .env # Variáveis de ambiente (API keys, configs sensíveis)
+- config.py # Configurações do projeto
+- main.py # Ponto de entrada da aplicação (inicia o servidor)
+- requirements.txt # Lista de dependências do projeto
 
 ## Como Executar
 
