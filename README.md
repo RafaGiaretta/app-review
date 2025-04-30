@@ -7,23 +7,15 @@ Abaixo está a descrição da estrutura do projeto e suas funcionalidades princi
 
 ## 🗂️ Estrutura do Projeto
 
-API-BUSCA
-├── app/
-│ ├── models/
-│ │ └── **init**.py # Inicializa o pacote de modelos (ex: classes de banco de dados)
-│ │
-│ ├── modules/
-│ │ ├── coleta.py # Coleta de dados (ex: APIs externas, web scraping)
-│ │ ├── core.py # Lógica central do projeto (processamento de dados)
-│ │ ├── sentiments.py # Análise de sentimentos de textos (ex: NLP com NLTK, TextBlob)
-│ │ ├── sugestocs.py # Geração de sugestões baseadas nos dados
-│ │ ├── routes.py # Endpoints da API (ex: FastAPI, Flask)
-│ │ ├── .env # Variáveis de ambiente (API keys, configs sensíveis)
-│ │ ├── config.py # Configurações do projeto (ex: conexão com banco de dados)
-│ │ └── main.py # Ponto de entrada da aplicação (inicia o servidor)
-│
-├── README.md # Documentação do projeto
-└── requirements.txt # Lista de dependências do projeto
+app/modules/
+coleta.py # Coleta de dados
+core.py # Lógica central do projeto
+sentiments.py # Análise de sentimentos de textos
+sugestocs.py # Geração de sugestões baseadas nos dados
+.env # Variáveis de ambiente (API keys, configs sensíveis)
+config.py # Configurações do projeto
+main.py # Ponto de entrada da aplicação (inicia o servidor)
+requirements.txt # Lista de dependências do projeto
 
 ## Como Executar
 
