@@ -4,6 +4,3 @@ pandas
 SerpApi
 google-search-results
 openai
-fastapi
-uvicorn
-flask_limiter
