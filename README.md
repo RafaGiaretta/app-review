@@ -10,23 +10,21 @@ Abaixo está a descrição da estrutura do projeto e suas funcionalidades princi
 API-BUSCA/
 ├── app/
 │   ├── models/
-│   │   └── __init__.py         # Inicializa o pacote de modelos (ex: classes de banco de dados)
+│   │   └── __init__.py           # Inicializa o pacote de modelos (ex: classes de banco de dados)
 │   │
 │   ├── modules/
-│   │   ├── coleta.py           # Módulo para coleta de dados (ex: APIs externas, web scraping)
-│   │   ├── core.py             # Lógica central do projeto (ex: processamento de dados)
-│   │   ├── sentiments.py       # Análise de sentimentos de textos (ex: NLP com NLTK, TextBlob)
-│   │   ├── sugestocs.py        # Geração de sugestões ou recomendações baseadas em dados
-│   │   ├── routes.py           # Define os endpoints da API (ex: Flask, FastAPI)
-│   │   ├── .env                # Variáveis de ambiente (API keys, configs sensíveis)
-│   │   ├── config.py           # Configurações do projeto (ex: conexão com banco de dados)
-│   │   └── main.py             # Ponto de entrada da aplicação (inicia o servidor)
+│   │   ├── coleta.py             # Coleta de dados (ex: APIs externas, web scraping)
+│   │   ├── core.py               # Lógica central do projeto (processamento de dados)
+│   │   ├── sentiments.py         # Análise de sentimentos de textos (ex: NLP com NLTK, TextBlob)
+│   │   ├── sugestocs.py          # Geração de sugestões baseadas nos dados
+│   │   ├── routes.py             # Endpoints da API (ex: FastAPI, Flask)
+│   │   ├── .env                  # Variáveis de ambiente (API keys, configs sensíveis)
+│   │   ├── config.py             # Configurações do projeto (ex: conexão com banco de dados)
+│   │   └── main.py               # Ponto de entrada da aplicação (inicia o servidor)
 │
-├── README.md                   # Documentação do projeto
-└── requirements.txt            # Lista de dependências do projeto
+├── README.md                     # Documentação do projeto
+└── requirements.txt              # Lista de dependências do projeto
 
-
----
 
 ## Como Executar
 
