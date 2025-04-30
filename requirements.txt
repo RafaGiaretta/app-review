@@ -1,0 +1,9 @@
+python-dotenv
+google_play_scraper
+pandas
+SerpApi
+google-search-results
+openai
+fastapi
+uvicorn
+flask_limiter
